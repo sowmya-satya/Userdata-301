@@ -1,15 +1,15 @@
 variable "key_name" {
-  default = "userpro"
+  default = "usertest"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/userpro.pem"
+  default = "/root/.ssh/usertest.pem"
 }
 
 variable "us-west-zones" {
-  default = ["us-west-1"]
+  default = ["us-east-2"]
 }
 
 variable "sg-id" {
-  default = "sg-0609f32410863f5a2"
+  default = "sg-0e658e0c16332b366"
 }
