@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "sowmi"
+  default = "userpro"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/sowmi.pem"
+  default = "/root/.ssh/userpro.pem"
 }
 
 variable "us-west-zones" {
@@ -11,5 +11,5 @@ variable "us-west-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-01f089000da0a9581"
+  default = "ami-094f0176b0d009d9f"
 }
