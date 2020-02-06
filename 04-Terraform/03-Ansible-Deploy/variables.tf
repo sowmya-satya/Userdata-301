@@ -11,5 +11,5 @@ variable "us-west-zones" {
 }
 
 variable "sg-id" {
-  default = "ami-094f0176b0d009d9f"
+  default = "sg-0609f32410863f5a2"
 }
