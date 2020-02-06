@@ -1,15 +1,15 @@
 variable "key_name" {
-  default = "mykey"
+  default = "sowmi"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/aditikey.pem"
+  default = "/root/.ssh/sowmi.pem"
 }
 
-variable "us-east-zones" {
-  default = ["us-east-2"]
+variable "us-west-zones" {
+  default = ["us-west-1"]
 }
 
 variable "sg-id" {
-  default = "sg-04f14b8ba13c81733"
+  default = "sg-01f089000da0a9581"
 }
